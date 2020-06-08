@@ -1,5 +1,5 @@
 <?php
-// Dit bestand hoort bij de router, enb bevat nog een aantal extra functiesdie je kunt gebruiken
+// Dit bestand hoort bij de router, en bevat nog een aantal extra functies die je kunt gebruiken
 // Lees meer: https://github.com/skipperbent/simple-php-router#helper-functions
 require_once __DIR__ . '/route_helpers.php';
 
