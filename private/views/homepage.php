@@ -1,3 +1,7 @@
+<?php foreach ($users as $user):?>
+    <?php echo $user['voornaam']?>
+<?php endforeach;?>
+
 <?php $this->layout('website');?>
 
 <?php $this->start('sidebar')?>

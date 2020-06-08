@@ -14,10 +14,20 @@ class WebsiteController {
 
 	public function home() {
 
+//	    echo "Welkom op de homepage!";
+
+        $users = getUsers();
+
 		$template_engine = get_template_engine();
-		echo $template_engine->render('homepage');
+		echo $template_engine->render('homepage', ['users' => $users]);
 
 	}
+
+    public function inschrijven() {
+
+        echo "Welkom bij inschrijven!";
+
+    }
 
 }
 
