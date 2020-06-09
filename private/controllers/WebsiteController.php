@@ -23,9 +23,15 @@ class WebsiteController {
 
 	}
 
-    public function inschrijven() {
+    public function projects() {
 
-        echo "Welkom bij inschrijven!";
+        echo "Hier komen mijn projecten!";
+
+    }
+
+    public function contact() {
+
+        echo "Hier komt mijn contact pagina!";
 
     }
 
