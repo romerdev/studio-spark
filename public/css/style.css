@@ -3,7 +3,7 @@
 :root {
     --main-color: #098d9b;
     --main-bg-color: #333333;
-    --standard-spacing: 20px 130px;
+    --standard-spacing: 20px 10vw;
 }
 
 body {
@@ -53,8 +53,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 5px 10px;
-    background: #000;
+    padding-left: 20px;
     color: #fff;
     text-decoration: none;
 }
@@ -62,18 +61,6 @@ nav ul li a {
 nav ul li .active, nav ul li a:hover {
     color: #000;
     background: #fff
-}
-
-
-aside {
-    background: rgb(162, 184, 232);
-    min-height: 100px;
-    padding: var(--standard-spacing);
-}
-
-.top-10 ol {
-    margin: 0;
-    padding: 0 20px;
 }
 
 footer {

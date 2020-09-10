@@ -12,10 +12,6 @@
 	<?php endif; ?>
 </head>
 <body>
-
-    <header>
-        <h1>SPARK</h1>
-    </header>
     <nav>
 		<?php if ( $this->section( 'navigation' ) ): ?>
 			<?php echo $this->section( 'navigation' ) ?>
@@ -27,9 +23,6 @@
         <section class="content">
 			<?php echo $this->section( 'content' ) ?>
         </section>
-        <aside>
-			<?php echo $this->section( 'sidebar' ) ?>
-        </aside>
     </main>
     <footer class="fixed-bottom">
         &copy; 2020
