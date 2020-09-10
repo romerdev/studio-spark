@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
+:root {
+    --main-color: #098d9b;
+    --main-bg-color: #333333;
+    --standard-spacing: 20px 130px;
+}
+
 body {
     font-family: "Nunito", "Open Sans", Arial, Helvetica, sans-serif;
-    background: rgba(20, 58, 135, 0.8);
+    background: var(--main-bg-color);
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
-    background: #fff;
+    background: var(--main-bg-color);
 }
 
 header {
-    padding: 20px;
+    padding: var(--standard-spacing);
     background: rgba(0, 13, 39);
     color: #fff;
 }
@@ -23,15 +29,15 @@ header h1 {
 }
 
 nav {
-    padding: 20px;
+    padding: var(--standard-spacing);
     background: rgb(162, 184, 232);
     color: #fff;
 }
 
 .content {
     background: #ffffff;
-    min-height: 100px;
-    padding: 20px;
+    min-height: 400px;
+    padding: var(--standard-spacing);
 }
 
 nav ul {
@@ -62,7 +68,7 @@ nav ul li .active, nav ul li a:hover {
 aside {
     background: rgb(162, 184, 232);
     min-height: 100px;
-    padding: 20px;
+    padding: var(--standard-spacing);
 }
 
 .top-10 ol {
@@ -71,7 +77,8 @@ aside {
 }
 
 footer {
-    padding: 20px;
+    padding: var(--standard-spacing);
+    height: 150px;
     color: #fff;
     background: rgba(0, 13, 39);
 }

@@ -12,9 +12,9 @@
 	<?php endif; ?>
 </head>
 <body>
-<div class="container">
+
     <header>
-        <h1>BuurtBoodschappen</h1>
+        <h1>SPARK</h1>
     </header>
     <nav>
 		<?php if ( $this->section( 'navigation' ) ): ?>
@@ -31,10 +31,10 @@
 			<?php echo $this->section( 'sidebar' ) ?>
         </aside>
     </main>
-    <footer>
+    <footer class="fixed-bottom">
         &copy; 2020
     </footer>
-</div>
+
 <?php $this->start( 'javascript' ) ?>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
