@@ -14,18 +14,17 @@ class WebsiteController {
 
 	public function home() {
 
-//	    echo "Welkom op de homepage!";
-
-        $users = getUsers();
+//        $users = getUsers();
 
 		$template_engine = get_template_engine();
-		echo $template_engine->render('homepage', ['users' => $users]);
+//		echo $template_engine->render('homepage', ['users' => $users]);
+        echo $template_engine->render('homepage');
 
 	}
 
-    public function projects() {
+    public function about() {
 
-        echo "Hier komen mijn projecten!";
+        echo "Hier komt de over ons pagina!";
 
     }
 

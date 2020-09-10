@@ -1,6 +1,6 @@
-<?php foreach ($users as $user):?>
-    <?php echo $user['voornaam']?>
-<?php endforeach;?>
+<?php //foreach ($users as $user):?>
+<!--    --><?php //echo $user['voornaam']?>
+<?php //endforeach;?>
 
 <?php $this->layout('website');?>
 

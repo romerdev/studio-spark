@@ -13,7 +13,7 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
 
 	SimpleRouter::get( '/', 'WebsiteController@home' )->name( 'home' );
     SimpleRouter::get( '/home', 'WebsiteController@home' )->name( 'home' );
-    SimpleRouter::get( '/projects', 'WebsiteController@projects' )->name( 'projects' );
+    SimpleRouter::get( '/about', 'WebsiteController@about' )->name( 'about' );
     SimpleRouter::get( '/contact', 'WebsiteController@contact' )->name( 'contact' );
 
     // STOP: Tot hier al je eigen URL's zetten
