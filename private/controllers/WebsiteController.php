@@ -28,6 +28,18 @@ class WebsiteController {
 
     }
 
+    public function diensten() {
+
+        echo "Hier komt de over ons pagina!";
+
+    }
+
+    public function portfolio() {
+
+        echo "Hier komt de over ons pagina!";
+
+    }
+
     public function contact() {
 
         echo "Hier komt mijn contact pagina!";
