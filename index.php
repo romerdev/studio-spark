@@ -2,10 +2,10 @@
 use Pecee\SimpleRouter\SimpleRouter;
 
 // Door deze regel heb je toegang tot alle software met composer is geïnstalleerd
-require_once '../vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
 // Handige functions die we nodig hebben
-require_once __DIR__ . '/../private/includes/functions.php';
+require_once __DIR__ . '/private/includes/functions.php';
 
 // Onze model functions (die gegevens opvragen)
 require_once get_config('PRIVATE') . '/models/model.php';
