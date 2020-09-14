@@ -19,7 +19,8 @@ main {
 nav {
     padding: var(--standard-spacing);
     background: var(--main-color);
-    color: #fff;
+    z-index: 99;
+    color: white;
 }
 
 .content {
@@ -28,27 +29,17 @@ nav {
     padding: var(--standard-spacing);
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
+.navbar-toggler {
+    cursor: pointer;
+    border: none;
 }
 
-nav ul li {
-    display: inline-block;
+.white-color {
+    color: white;
 }
 
-nav ul li a {
-    display: block;
-    padding-left: 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li .active, nav ul li a:hover {
-    color: #000;
-    background: #fff
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
 
 footer {

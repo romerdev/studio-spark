@@ -1,10 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-dark static-top">
-    <h1>SPARK</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">SPARK</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="white-color"><i class="fas fa-bars" style="font-size:24px;"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( 'home' ) ): ?> class="active"<?php endif ?>>Home</a>
                 </li>
