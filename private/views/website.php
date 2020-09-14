@@ -93,9 +93,10 @@
 
                 <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
 
+                    <h5 class="font-weight-bold text-uppercase mb-4">Nieuwsbrief</h5>
+
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                         </div>
                         <button type="submit" class="btn btn-success ">Submit</button>
