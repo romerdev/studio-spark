@@ -24,25 +24,29 @@ class WebsiteController {
 
     public function about() {
 
-        echo "Hier komt de over ons pagina!";
+        $template_engine = get_template_engine();
+        echo $template_engine->render('aboutpage');
 
     }
 
     public function diensten() {
 
-        echo "Hier komt de over ons pagina!";
+        $template_engine = get_template_engine();
+        echo $template_engine->render('dienstenpage');
 
     }
 
     public function portfolio() {
 
-        echo "Hier komt de over ons pagina!";
+        $template_engine = get_template_engine();
+        echo $template_engine->render('portfoliopage');
 
     }
 
     public function contact() {
 
-        echo "Hier komt mijn contact pagina!";
+        $template_engine = get_template_engine();
+        echo $template_engine->render('contactpage');
 
     }
 

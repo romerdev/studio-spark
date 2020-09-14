@@ -4,10 +4,6 @@
 
 <?php $this->layout('website');?>
 
-<h1>Homepage</h1>
+<h1>Over Ons</h1>
 
-<p>Hier komt alle content voor de homepage.</p>
-
-
-
-
+<p>Hier komt alle content voor de about pagina.</p>
