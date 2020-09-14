@@ -28,93 +28,120 @@
         </section>
     </main>
 
-    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color pt-4">
 
+        <!-- Footer Links -->
         <div class="container text-center text-md-left">
 
-            <div class="row">
+            <!-- Footer links -->
+            <div class="row text-center text-md-left mt-3 pb-3">
 
-                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Spark</h6>
+                    <p>Wij denken graag met jou mee voor een creatieve oplossing op jouw media-probleem. Van visitekaartjes tot een volledige website. Neem snel contact met ons op voor een offerte.</p>
+                </div>
+                <!-- Grid column -->
 
-                    <h5 class="font-weight-bold text-uppercase mb-4">Contact</h5>
+                <hr class="w-100 clearfix d-md-none">
 
-                    <ul class="list-unstyled">
-                        <li>
-                            <p>
-                                <i class="fas fa-home mr-3"></i> Contactweg 36, 1014 AN Amsterdam</p>
-                        </li>
-                        <li>
-                            <p>
-                                <i class="fas fa-envelope mr-3"></i> info@spark.nl</p>
-                        </li>
-                        <li>
-                            <p>
-                                <i class="fas fa-phone mr-3"></i> 020 850 9500</p>
-                        </li>
-                    </ul>
+                <!-- Grid column -->
 
+                <hr class="w-100 clearfix d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                    <p>
+                        <a href="<?php echo url( 'home' ) ?>">Home</a>
+                    </p>
+                    <p>
+                        <a href="<?php echo url( 'about' ) ?>">Over Ons</a>
+                    </p>
+                    <p>
+                        <a href="<?php echo url( 'diensten' ) ?>">Diensten</a>
+                    </p>
+                    <p>
+                        <a href="<?php echo url( 'portfolio' ) ?>">Portfolio</a>
+                    </p>
+                    <p>
+                        <a href="<?php echo url( 'contact' ) ?>">Contact</a>
+                    </p>
                 </div>
 
-                <hr class="clearfix w-100 d-md-none">
+                <hr class="w-100 clearfix d-md-none">
 
-                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
-
-                    <h5 class="font-weight-bold text-uppercase mb-4">Spark</h5>
-                    <p>Dit moet nog opgevuld worden met goeie tekst jwz.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
-                        esse
-                        quasi, veritatis totam voluptas nostrum.</p>
-
-                </div>
-
-                <hr class="clearfix w-100 d-md-none">
-
-                <div class="col-md-2 col-lg-2 text-center mx-auto my-4 social">
-
-                    <h5 class="font-weight-bold text-uppercase mb-4">Volg ons</h5>
-
-                    <a type="button" class="btn-floating btn-fb">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-
-                    <a type="button" class="btn-floating btn-tw">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-
-                    <a type="button" class="btn-floating btn-gplus">
-                        <i class="fab fa-google-plus-g"></i>
-                    </a>
-
-                    <a type="button" class="btn-floating btn-dribbble">
-                        <i class="fab fa-dribbble"></i>
-                    </a>
-
-                </div>
-
-                <hr class="clearfix w-100 d-md-none">
-
-                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-                    <h5 class="font-weight-bold text-uppercase mb-4">Nieuwsbrief</h5>
-
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <button type="submit" class="btn btn-success ">Submit</button>
-                    </form>
-
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Contactweg 36, 1014 AN, Amsterdam</p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> info@spark.nl</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> 020 850 9500</p>
                 </div>
 
             </div>
 
-        </div>
+            <hr>
 
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="#"> spark.nl</a>
+            <!-- Grid row -->
+            <div class="row d-flex align-items-center">
+
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8">
+
+                    <!--Copyright-->
+                    <p class="text-center text-md-left">© 2020 Copyright:
+                        <a href="#">
+                            <strong> spark.nl</strong>
+                        </a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                    <!-- Social buttons -->
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
         </div>
+        <!-- Footer Links -->
 
     </footer>
+    <!-- Footer -->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
