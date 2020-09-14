@@ -13,25 +13,12 @@ body {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
     background: var(--main-bg-color);
-}
-
-header {
-    padding: var(--standard-spacing);
-    background: rgba(0, 13, 39);
-    color: #fff;
-}
-
-header h1 {
-    margin-bottom: 0;
 }
 
 nav {
     padding: var(--standard-spacing);
-    background: rgb(162, 184, 232);
+    background: var(--main-color);
     color: #fff;
 }
 
