@@ -26,7 +26,6 @@ nav {
 .content {
     background: #ffffff;
     min-height: 400px;
-    padding: var(--standard-spacing);
 }
 
 .navbar-toggler {
@@ -66,8 +65,12 @@ footer a:hover {
     color: #52b8d2;
 }
 
-@media screen and (min-width: 900px) {
-    main {
-        grid-template-columns: 1fr 350px;
-    }
+/* HOMEPAGE */
+.masthead {
+    height: 40vh;
+    min-height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
