@@ -4,7 +4,8 @@
     --main-color: #098d9b;
     --main-color-darker: #077683;
     --main-bg-color: #333333;
-    --standard-spacing: 20px 10vw;
+    --standard-spacing: 15px 10vw;
+    --seconday-color: #d2ca09;
 }
 
 body {
@@ -26,6 +27,15 @@ nav {
 .content {
     background: #ffffff;
     min-height: 400px;
+}
+
+.btn-primary {
+    background-color: var(--main-color);
+    border-color: var(--main-color-darker);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--main-color-darker);
 }
 
 .navbar-toggler {
