@@ -23,33 +23,27 @@
     </div>
 
     <div class="row py-2">
-        <div class="col-sm-4 pb-3">
+        <div class="col-lg-4 pb-3">
             <div class="card">
                 <img class="card-img-top" src="https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Uit Database</h5>
-                    <p class="card-text">Hier komt één van de 3 onderdelen vanuit onze portfolio. Met eem mooi plaatje, pakkende titel en een knop naar dat onderdeel.</p>
-                    <a href="#" class="btn btn-primary">Naar het onderdeel</a>
+                <div class="card-img-overlay d-flex">
+                    <a href="#" class="btn btn-secondary mt-auto mx-auto px-5 py-2">Lees Meer</a>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 pb-3">
+        <div class="col-lg-4 pb-3">
             <div class="card">
                 <img class="card-img-top" src="https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Uit Database</h5>
-                    <p class="card-text">Hier komt één van de 3 onderdelen vanuit onze portfolio. Met eem mooi plaatje, pakkende titel en een knop naar dat onderdeel.</p>
-                    <a href="#" class="btn btn-primary">Naar het onderdeel</a>
+                <div class="card-img-overlay d-flex">
+                    <a href="#" class="btn btn-secondary mt-auto mx-auto px-5 py-2">Lees Meer</a>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 pb-3">
+        <div class="col-lg-4 pb-3">
             <div class="card">
                 <img class="card-img-top" src="https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Uit Database</h5>
-                    <p class="card-text">Hier komt één van de 3 onderdelen vanuit onze portfolio. Met eem mooi plaatje, pakkende titel en een knop naar dat onderdeel.</p>
-                    <a href="#" class="btn btn-primary">Naar het onderdeel</a>
+                <div class="card-img-overlay d-flex">
+                    <a href="#" class="btn btn-secondary mt-auto mx-auto px-5 py-2">Lees Meer</a>
                 </div>
             </div>
         </div>
