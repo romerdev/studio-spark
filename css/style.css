@@ -2,10 +2,9 @@
 
 :root {
     --main-color: #333333;
-    --main-color-darker: #077683;
-    --main-bg-color: #333333;
+    --main-color-lighter: #585858;
     --standard-spacing: 15px 10vw;
-    --seconday-color: #d2ca09;
+    --seconday-color: #ddd40a;
     --seconday-color-darker: #b5ad0d;
 }
 
@@ -96,8 +95,8 @@ footer a:hover {
     color: white;
 }
 
-.darker-background {
-    background-color: var(--main-color);
+.lighter-background {
+    background-color: var(--main-color-lighter);
 }
 
 .image {
@@ -111,12 +110,12 @@ footer a:hover {
 }
 
 .textbox {
-    background-color: var(--seconday-color);
+    background-color: #ececec;
     margin-top: 65%;
     margin-right: 25%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
     .image {
         transform: translateX(0%);
         display: flex;
