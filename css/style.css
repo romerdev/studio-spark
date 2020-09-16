@@ -48,7 +48,7 @@ nav {
 }
 
 footer {
-    background-color: var(--main-color-darker);
+    background-color: var(--main-color);
     color: white;
 }
 
@@ -88,4 +88,48 @@ footer a:hover {
 .card-img-top {
     min-height: 500px;
     object-fit: cover;
+}
+
+.card.waarde  {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.darker-background {
+    background-color: var(--main-color);
+}
+
+.image {
+    align-self: flex-start;
+    transform: translateX(25%);
+}
+
+.final-image {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.textbox {
+    background-color: var(--seconday-color);
+    margin-top: 65%;
+    margin-right: 25%;
+}
+
+@media only screen and (max-width: 767px) {
+    .image {
+        transform: translateX(0%);
+        display: flex;
+    }
+
+    .final-image {
+        height: 70vh;
+        object-fit: cover;
+    }
+
+    .textbox {
+        transform: translateY(-45%);
+        margin: 0 auto;
+        width: 60%;
+    }
 }

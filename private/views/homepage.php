@@ -49,3 +49,48 @@
         </div>
     </div>
 </section>
+
+<div class="darker-background">
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-4 d-flex">
+                <div class="card waarde align-items-center my-auto">
+                    <img class="card-img w-75" src="https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Card image cap">
+                    <div class="card-img-bottom text-center pt-2">
+                        <h3>Dynamisch</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card waarde align-items-center my-auto">
+                    <img class="card-img w-75" src="https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Card image cap">
+                    <div class="card-img-bottom text-center pt-2">
+                        <h3>Verbindend</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card waarde align-items-center my-auto">
+                    <img class="card-img w-75" src="https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Card image cap">
+                    <div class="card-img-bottom text-center pt-2">
+                        <h3>Effectief</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="container py-5">
+        <div class="row">
+            <div class="col-md-6 image">
+                <img src="https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" height="auto" class="w-100 final-image"/>
+            </div>
+            <div class="col-md-6">
+                <div class="textbox p-5">
+                    <h5>Hier komt genoeg tekst om het hele vakje mee op te vullen. Gewoon een laatste pakkende tekst. Ohja f*** er moet ook nog een knop in..</h5>
+                </div>
+            </div>
+        </div>
+</section>
+
