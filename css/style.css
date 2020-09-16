@@ -29,6 +29,10 @@ nav {
     border-radius: 0;
 }
 
+a#active.nav-link{
+    color: var(--seconday-color);
+}
+
 .btn-primary {
     background-color: var(--seconday-color);
 }
