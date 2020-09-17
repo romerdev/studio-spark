@@ -55,7 +55,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card waarde align-items-center my-auto">
-                    <img class="card-img w-50 waarde-image" src="<?php echo site_url('/images/noun_dynamic_2048497.svg') ?>" alt="Card image cap">
+                    <img class="card-img w-50 pb-2" src="<?php echo site_url('/images/noun_dynamic_2048497.svg') ?>" alt="Card image cap">
                     <div class="card-img-bottom text-center pt-2">
                         <h3>Dynamisch</h3>
                     </div>
@@ -63,7 +63,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card waarde align-items-center my-auto">
-                    <img class="card-img w-50 waarde-image" src="<?php echo site_url('/images/noun_connect_1737835.svg') ?>" alt="Card image cap">
+                    <img class="card-img w-50 pb-2" src="<?php echo site_url('/images/noun_connect_1737835.svg') ?>" alt="Card image cap">
                     <div class="card-img-bottom text-center pt-2">
                         <h3>Verbindend</h3>
                     </div>
@@ -71,7 +71,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card waarde align-items-center my-auto">
-                    <img class="card-img w-50 waarde-image" src="<?php echo site_url('/images/noun_explode_72135.svg') ?>" alt="Card image cap">
+                    <img class="card-img w-50 pb-2" src="<?php echo site_url('/images/noun_explode_72135.svg') ?>" alt="Card image cap">
                     <div class="card-img-bottom text-center pt-2">
                         <h3>Effectief</h3>
                     </div>

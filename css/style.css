@@ -47,14 +47,15 @@ a#active.nav-link{
     background-color: var(--seconday-color);
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: var(--seconday-color-darker);
-    outline: none;
-}
+/*.btn-primary:hover, .btn-primary:focus, .btn:active {*/
+/*    background-color: var(--seconday-color-darker);*/
+/*    outline: none;*/
+/*}*/
 
-.btn:focus,.btn:active {
-    outline: none !important;
-    box-shadow: none;
+.btn-primary:focus, .btn-primary:active, .btn-primary:hover {
+    background-color: var(--seconday-color-darker) !important;
+    outline: none;
+    box-shadow: none !important;
 }
 
 .navbar-toggler {
