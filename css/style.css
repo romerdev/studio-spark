@@ -14,8 +14,21 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
 nav {
-    padding: var(--standard-spacing);
     background: var(--main-color);
     z-index: 99;
     color: white;
