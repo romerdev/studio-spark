@@ -2,10 +2,12 @@
 
 :root {
     --main-color: #333333;
-    --main-color-lighter: #585858;
+    --main-color-lighter: #5B5A5D;
     --standard-spacing: 15px 10vw;
-    --seconday-color: #ddd40a;
-    --seconday-color-darker: #b5ad0d;
+    --seconday-color: #FFCE00;
+    --seconday-color-darker: #eec200;
+    --blue-color: #00BDFF;
+    --green-color: #7DC582;
 }
 
 body {
@@ -17,11 +19,6 @@ nav {
     background: var(--main-color);
     z-index: 99;
     color: white;
-}
-
-.content {
-    background: #ffffff;
-    min-height: 400px;
 }
 
 .btn {
@@ -37,8 +34,14 @@ a#active.nav-link{
     background-color: var(--seconday-color);
 }
 
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background-color: var(--seconday-color-darker);
+    outline: none;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
 }
 
 .navbar-toggler {
@@ -111,7 +114,7 @@ footer a:hover {
 .textbox {
     background-color: #ececec;
     transform: translateX(-25%);
-    margin-top: 55%;
+    margin-top: 60%;
 }
 
 @media only screen and (max-width: 991px) {
