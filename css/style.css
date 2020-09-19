@@ -143,3 +143,9 @@ footer a:hover {
         margin: 0 auto;
     }
 }
+
+/* CONTACT */
+#map {
+    height: 400px;
+    width: 100%
+}

@@ -21,7 +21,11 @@
             <p>info@spark.nl</p>
             <h4>Telefoon</h4>
             <p>020 850 9500</p>
+            <div id="map">
+
+            </div>
         </div>
+
         <div class="col-lg-6">
             <form>
                 <div class="form-group">
