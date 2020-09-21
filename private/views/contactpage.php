@@ -1,7 +1,3 @@
-<?php //foreach ($users as $user):?>
-<!--    --><?php //echo $user['voornaam']?>
-<?php //endforeach;?>
-
 <?php $this->layout('website');?>
 
 <section class="container pt-5">
@@ -12,7 +8,7 @@
     </div>
 </section>
 
-<section class="container py-3">
+<section class="container pb-3">
     <div class="row py-2x">
         <div class="col-lg-6">
             <h4>Adres</h4>
@@ -21,32 +17,24 @@
             <p>info@spark.nl</p>
             <h4>Telefoon</h4>
             <p>020 850 9500</p>
-            <div id="map">
-
+            <div>
+                <iframe id="map" src="https://maps.google.com/maps?q=Contactweg%2036&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
         </div>
 
         <div class="col-lg-6">
-            <form>
+            <form action="<?php echo url('contact.handle')?>" method="POST">
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@voorbeeld.nl">
+                    <label for="">Email address</label>
+                    <input type="email" name="from_email" class="form-control" id="form-input" required placeholder="email@voorbeeld.nl">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Naam</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jan Jansen">
+                    <label for="">Naam</label>
+                    <input type="text" name="from_name" class="form-control" id="form-input" required placeholder="Jan Jansen">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Onderwerp</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jouw Onderwerp">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Telefoon</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="06 12345678">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Jouw bericht</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="">Jouw bericht</label>
+                    <textarea class="form-control" name="contact_message" id="form-area" required rows="6"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary px-5 py-2">Verzenden</button>
             </form>

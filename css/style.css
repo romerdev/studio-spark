@@ -149,3 +149,12 @@ footer a:hover {
     height: 400px;
     width: 100%
 }
+
+#form-input, #form-area {
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+#form-input:focus, #form-area:focus {
+    border-color: var(--seconday-color);
+}
