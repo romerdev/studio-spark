@@ -81,7 +81,7 @@
                 <div class="col-md-7 col-lg-8">
 
                     <p class="text-center text-md-left">© 2020 Copyright:
-                        <a href="#">
+                        <a href="<?php echo url( 'home' ) ?>">
                             <strong> spark.nl</strong>
                         </a>
                     </p>

@@ -26,16 +26,28 @@
             <form action="<?php echo url('contact.handle')?>" method="POST">
                 <div class="form-group">
                     <label for="">Email address</label>
-                    <input type="email" name="from_email" class="form-control" id="form-input" required placeholder="email@voorbeeld.nl">
+                    <input type="text" name="from_email" class="form-control" id="form-input" value="<?php echo input('from_email') ?>"  placeholder="email@voorbeeld.nl">
+                    <?php if ( isset( $errors['email'] ) ): ?>
+                        <p class="text-danger"><?php echo $errors['email'] ?></p>
+                    <?php endif; ?>
                 </div>
                 <div class="form-group">
                     <label for="">Naam</label>
-                    <input type="text" name="from_name" class="form-control" id="form-input" required placeholder="Jan Jansen">
+                    <input type="text" name="from_name" class="form-control" id="form-input"  placeholder="Jan Jansen">
+                    <?php if ( isset( $errors['name'] ) ): ?>
+                        <p class="text-danger"><?php echo $errors['name'] ?></p>
+                    <?php endif; ?>
                 </div>
                 <div class="form-group">
                     <label for="">Jouw bericht</label>
-                    <textarea class="form-control" name="contact_message" id="form-area" required rows="6"></textarea>
+                    <textarea class="form-control" name="contact_message" id="form-area"  rows="6"></textarea>
+                    <?php if ( isset( $errors['message'] ) ): ?>
+                        <p class="text-danger"><?php echo $errors['message'] ?></p>
+                    <?php endif; ?>
                 </div>
+                <?php if ( isset( $success['send'] ) ): ?>
+                    <p class="text-success"><?php echo $success['send'] . '<br />' ?></p>
+                <?php endif; ?>
                 <button type="submit" class="btn btn-primary px-5 py-2">Verzenden</button>
             </form>
         </div>
