@@ -97,10 +97,10 @@
         </div>
 </section>
 
-<section class="container py-5">
+<section class="container pb-5">
     <div class="row d-flex">
         <div class="mx-auto">
-            <div class="col-md-12 d-flex">
+            <div class="col-md-12 text-center" id="interesse">
                 <h2>Geïnteresseerd? Bekijk dan onze diensten</h2>
                 <a href="<?php echo url( 'diensten' ) ?>" class="btn btn-primary ml-3 px-5 py-2">Diensten</a>
             </div>

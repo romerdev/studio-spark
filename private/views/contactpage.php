@@ -1,7 +1,7 @@
 <?php $this->layout('website');?>
 
-<section class="container pt-5">
-    <div class="row pb-5">
+<section class="container pt-4">
+    <div class="row pb-1">
         <div class="col-12">
             <h1>Contact</h1>
         </div>
@@ -9,8 +9,8 @@
 </section>
 
 <section class="container pb-3">
-    <div class="row py-2x">
-        <div class="col-lg-6">
+    <div class="row">
+        <div class="col-lg-6 py-3">
             <h4>Adres</h4>
             <p>Contactweg 36, 1014 AN, Amsterdam</p>
             <h4>Mail</h4>
@@ -22,7 +22,8 @@
             </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 py-3">
+            <h4>Formulier</h4>
             <form action="<?php echo url('contact.handle')?>" method="POST">
                 <div class="form-group">
                     <label for="">Email address</label>
@@ -40,7 +41,7 @@
                 </div>
                 <div class="form-group">
                     <label for="">Jouw bericht</label>
-                    <textarea class="form-control" name="contact_message" id="form-area"  rows="6"></textarea>
+                    <textarea class="form-control" name="contact_message" id="form-area"  rows="10"></textarea>
                     <?php if ( isset( $errors['message'] ) ): ?>
                         <p class="text-danger"><?php echo $errors['message'] ?></p>
                     <?php endif; ?>
