@@ -17,7 +17,7 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
     SimpleRouter::get( '/diensten', 'WebsiteController@diensten' )->name( 'diensten' );
     SimpleRouter::get( '/portfolio', 'WebsiteController@portfolio' )->name( 'portfolio' );
 
-    SimpleRouter::get( '/contact', 'ContactController@showContactForm' )->name( 'contact.form' );
+    SimpleRouter::get( '/contact', 'ContactController@showContactForm' )->name( 'contact.show' );
     SimpleRouter::post( '/contact/send', 'ContactController@handleContactForm' )->name( 'contact.handle' );
 
     // STOP: Tot hier al je eigen URL's zetten

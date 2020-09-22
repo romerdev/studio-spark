@@ -1,7 +1,6 @@
 <?php
 
 namespace Website\Controllers;
-
 /**
  * Class ContactController
  *
@@ -29,8 +28,28 @@ class ContactController {
             echo "Foutief emailadres;";
             exit;
         }
-//
-//        $mailer = getSwiftMailer();
+
+        $mailer = getSwiftMailer();
+
+        $message = createEmailMessage('28746@ma-web.nl', 'SPARK | Contact Form Response', $from_name, $from_email);
+
+        $template_engine = get_template_engine();
+
+        $data =[
+            'message' => $message,
+            'from_name' => $from_name,
+            'from_email' => $from_email,
+            'contact_message' => $contact_message,
+        ];
+
+        $html = $template_engine->render('email', $data);
+
+        $message->setBody($html, 'text/html');
+        $message->addPart("Bericht van " . $from_name . ': ' . $contact_message, 'text/plain');
+
+        $aantal_verstuurd = $mailer->send( $message );
+
+        echo "Bedankt, uw bericht is verzonden.";
 
     }
 
