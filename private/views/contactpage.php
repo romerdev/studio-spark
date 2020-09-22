@@ -1,6 +1,6 @@
 <?php $this->layout('website');?>
 
-<section class="container pt-4">
+<section class="container pt-5">
     <div class="row pb-1">
         <div class="col-12">
             <h1>Contact</h1>
@@ -8,7 +8,7 @@
     </div>
 </section>
 
-<section class="container pb-3">
+<section class="container pb-5">
     <div class="row">
         <div class="col-lg-6 py-3">
             <h4>Adres</h4>

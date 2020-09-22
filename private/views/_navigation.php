@@ -1,7 +1,7 @@
-<nav class="navbar smart-scroll navbar-expand-lg navbar-dark py-3">
+<nav class="navbar smart-scroll navbar-expand-lg navbar-dark py-4">
     <div class="container">
         <a class="navbar-brand" href="<?php echo url( 'home' ) ?>">
-            <img src="<?php echo site_url('/images/spark-logo-zwart.svg') ?>" height="20" alt="">
+            <img src="<?php echo site_url('/images/spark-logo-zwart.svg') ?>" height="40" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="white-color"><i class="fas fa-bars" style="font-size:24px; color: white;"></i></span>
