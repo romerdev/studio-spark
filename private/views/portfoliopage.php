@@ -16,4 +16,10 @@
 </section>
 <hr>
 
-<p>Hier komt onze portfolio.</p>
+<section class="container">
+    <div class="row">
+        <div class="col-lg-12 py-3">
+            <p>Hier komt alle content over onze portfolio.</p>
+        </div>
+    </div>
+</section>

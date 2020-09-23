@@ -1,5 +1,7 @@
 <?php $this->layout('website');?>
 
+<img class="masthead" src="<?php echo site_url('/images/mast/mast-image-contact.jpg') ?>" alt="Card image cap">
+
 <section class="container">
     <div class="mt-3">
         <h1>Contact</h1>
@@ -11,6 +13,8 @@
     </div>
 </section>
 <hr>
+
+<div class="background-contact">
 
 <section class="container pb-5">
     <div class="row">
@@ -58,3 +62,5 @@
         </div>
     </div>
 </section>
+
+</div>
