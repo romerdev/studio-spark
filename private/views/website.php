@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Spark</title>
+    <title>Studio Spark</title>
     <link rel="icon" href="<?php echo site_url('/images/spark-logo-small.svg') ?>" type="image" sizes="64x64">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -20,7 +20,6 @@
         <?php else: ?>
             <?php echo $this->fetch( '_navigation' ) ?>
         <?php endif ?>
-
 
     <main>
         <section class="content">
@@ -67,7 +66,7 @@
                     <p>
                         <i class="fas fa-home mr-3"></i> Contactweg 36, 1014 AN, Amsterdam</p>
                     <p>
-                        <i class="fas fa-envelope mr-3"></i> info@spark.nl</p>
+                        <i class="fas fa-envelope mr-3"></i> info@studiospark.net</p>
                     <p>
                         <i class="fas fa-phone mr-3"></i> 020 850 9500</p>
                 </div>
@@ -82,7 +81,7 @@
 
                     <p class="text-center text-md-left">© 2020 Copyright:
                         <a href="<?php echo url( 'home' ) ?>">
-                            <strong> spark.nl</strong>
+                            <strong> studiospark.net</strong>
                         </a>
                     </p>
 

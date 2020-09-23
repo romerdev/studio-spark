@@ -4,6 +4,16 @@
 
 <?php $this->layout('website');?>
 
-<h1>Portfolio</h1>
+<section class="container">
+    <div class="mt-3">
+        <h1>Portfolio</h1>
+        <div>
+            <a class="nav-indicator-link" href="<?php echo url( 'home' ) ?>">Studio Spark</a>
+            &nbsp; - &nbsp;
+            <span class="nav-indicator-active">Portfolio</span>
+        </div>
+    </div>
+</section>
+<hr>
 
 <p>Hier komt onze portfolio.</p>

@@ -1,12 +1,16 @@
 <?php $this->layout('website');?>
 
-<section class="container pt-5">
-    <div class="row pb-1">
-        <div class="col-12">
-            <h1>Contact</h1>
+<section class="container">
+    <div class="mt-3">
+        <h1>Contact</h1>
+        <div>
+            <a class="nav-indicator-link" href="<?php echo url( 'home' ) ?>">Studio Spark</a>
+            &nbsp; - &nbsp;
+            <span class="nav-indicator-active">Contact</span>
         </div>
     </div>
 </section>
+<hr>
 
 <section class="container pb-5">
     <div class="row">
@@ -14,7 +18,7 @@
             <h4>Adres</h4>
             <p>Contactweg 36, 1014 AN, Amsterdam</p>
             <h4>Mail</h4>
-            <p>info@spark.nl</p>
+            <p>info@studiospark.net</p>
             <h4>Telefoon</h4>
             <p>020 850 9500</p>
             <div>

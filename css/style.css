@@ -2,6 +2,7 @@
 
 :root {
     --main-color: #333333;
+    --main-color-darker: #000000;
     --main-color-lighter: #5B5A5D;
     --standard-spacing: 15px 10vw;
     --seconday-color: #FFCE00;
@@ -12,6 +13,26 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: var(--seconday-color); !important;
+}
+
+a:hover {
+    color: var(--seconday-color-darker); !important;
+}
+
+a.nav-indicator-link{
+    color: var(--main-color); !important;
+}
+
+a.nav-indicator-link:hover {
+    color: var(--main-color-darker); !important;
+}
+
+span.nav-indicator-active {
+    color: #7c7c7c;
 }
 
 .smart-scroll{
