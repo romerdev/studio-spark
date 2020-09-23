@@ -4,4 +4,4 @@ Dit is de website voor Studio Spark, een bedrijf opgericht door 2 mediavormgever
 
 ## Resultaat
 
-De uikomst van dit project is een toegankelijke / responsive website. Klik [hier]hhtps://www.studiospark.net om de website te bezoeken.
+De uikomst van dit project is een toegankelijke / responsive website. Klik [hier](https://www.studiospark.net) om de website te bezoeken.
