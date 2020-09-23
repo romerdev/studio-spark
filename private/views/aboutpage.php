@@ -7,7 +7,7 @@
 <section class="container">
         <div class="mt-3">
             <h1>Over Ons</h1>
-            <div>
+            <div class="indicator">
                 <a class="nav-indicator-link" href="<?php echo url( 'home' ) ?>">Studio Spark</a>
                 &nbsp; - &nbsp;
                 <span class="nav-indicator-active">Over Ons</span>
@@ -16,7 +16,7 @@
 </section>
 <hr>
 
-<section class="container pb-5">
+<section class="container">
     <div class="row">
         <div class="col-lg-6 py-3">
             <h2>Wie wij zijn</h2>
@@ -40,7 +40,9 @@
 <section class="container pb-5">
     <div class="row pb-1">
         <div class="col-12">
-            <h1>Het Team</h1>
+            <h2>Het Team</h2>
+            <br>
+            <img class="w-100" src="<?php echo site_url('/images/groep.jpg') ?>" alt="Card image cap">
         </div>
     </div>
 </section>

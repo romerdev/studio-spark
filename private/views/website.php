@@ -55,7 +55,7 @@
                         <a href="<?php echo url( 'portfolio' ) ?>">Portfolio</a>
                     </p>
                     <p>
-                        <a href="<?php echo url( 'contact' ) ?>">Contact</a>
+                        <a href="<?php echo url( 'contact.show' ) ?>">Contact</a>
                     </p>
                 </div>
 

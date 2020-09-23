@@ -2,17 +2,31 @@
 
 :root {
     --main-color: #333333;
-    --main-color-darker: #000000;
+    --main-color-darker: #2f2f2f;
     --main-color-lighter: #5B5A5D;
     --standard-spacing: 15px 10vw;
     --seconday-color: #FFCE00;
     --seconday-color-darker: #eec200;
     --blue-color: #00BDFF;
     --green-color: #7DC582;
+    --border-color: #5f5f5f;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--main-color);
+}
+
+h1,h2,h3,h4,h5,p {
+    color: #f1f1f1;
+}
+
+.reset {
+    color: black;
+}
+
+hr {
+    border-color: var(--border-color);
 }
 
 a {
@@ -24,15 +38,15 @@ a:hover {
 }
 
 a.nav-indicator-link{
-    color: var(--main-color); !important;
+    color: var(--seconday-color); !important;
 }
 
 a.nav-indicator-link:hover {
-    color: var(--main-color-darker); !important;
+    color: var(--seconday-color-darker); !important;
 }
 
-span.nav-indicator-active {
-    color: #7c7c7c;
+.indicator {
+    color: #c8c8c8;
 }
 
 .smart-scroll{
@@ -50,7 +64,7 @@ span.nav-indicator-active {
 }
 
 nav {
-    background: var(--main-color);
+    background: var(--main-color-darker);
     z-index: 99;
     color: white;
 }
@@ -89,8 +103,9 @@ a#active.nav-link{
 }
 
 footer {
-    background-color: var(--main-color);
+    background-color: var(--main-color-darker);
     color: white;
+    border-top: 1px solid var(--border-color);
 }
 
 footer a {

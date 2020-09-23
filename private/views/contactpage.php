@@ -3,7 +3,7 @@
 <section class="container">
     <div class="mt-3">
         <h1>Contact</h1>
-        <div>
+        <div class="indicator">
             <a class="nav-indicator-link" href="<?php echo url( 'home' ) ?>">Studio Spark</a>
             &nbsp; - &nbsp;
             <span class="nav-indicator-active">Contact</span>

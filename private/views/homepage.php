@@ -88,7 +88,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="textbox p-5">
-                    <p>Hier komt genoeg tekst om het hele vakje mee op te vullen. Gewoon een laatste pakkende tekst. Ohja f*** er moet ook nog een knop in..</p>
+                    <p class="reset">Hier komt genoeg tekst om het hele vakje mee op te vullen. Gewoon een laatste pakkende tekst. Ohja f*** er moet ook nog een knop in..</p>
                     <div class="d-flex">
                         <a href="#" class="btn btn-primary textbox-btn ml-auto mt-4 px-5 py-2">Lees Meer</a>
                     </div>
