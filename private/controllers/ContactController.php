@@ -42,7 +42,7 @@ class ContactController {
         if( count( $errors ) === 0 ) {
             $mailer = getSwiftMailer();
 
-            $message = createEmailMessage('28746@ma-web.nl', 'SPARK | Contact Form Response', $from_name, $from_email);
+            $message = createEmailMessage('info@studiospark.net', 'SPARK | Contact Form Response', $from_name, $from_email);
 
             $template_engine = get_template_engine();
 

@@ -1,6 +1,10 @@
 <?php $this->layout('website');?>
 
-<img class="masthead" src="<?php echo site_url('/images/mast/mast-image-diensten.jpg') ?>" alt="Card image cap">
+<!--<img class="masthead" src="--><?php //echo site_url('/images/mast/mast-image-diensten.jpg') ?><!--" alt="Card image cap">-->
+
+<video class="masthead" autoplay muted loop controls>
+    <source src="<?php echo site_url('/images/promo.mp4') ?>" type="video/mp4">
+</video>
 
 <div class="background-home">
 
@@ -15,8 +19,8 @@
     <div class="row py-2">
         <div class="col-lg-4 pb-3">
             <div class="card">
-                <div class="card-header text-center">Titel 1</div>
-                <img class="card-img-top" src="<?php echo site_url('/images/home/s1-1.jpg') ?>" alt="Card image cap">
+                <div class="card-header text-center">Wireframe</div>
+                <img class="card-img-top" src="<?php echo site_url('/images/portfolio/Portfolio_Beau.jpg') ?>" alt="Card image cap">
                 <div class="card-img-overlay d-flex">
                     <a href="#" class="btn btn-primary mt-auto mx-auto px-5 py-2">Lees Meer</a>
                 </div>
@@ -24,8 +28,8 @@
         </div>
         <div class="col-lg-4 pb-3">
             <div class="card">
-                <div class="card-header text-center">Titel 2</div>
-                <img class="card-img-top" src="<?php echo site_url('/images/home/s1-2.jpg') ?>" alt="Card image cap">
+                <div class="card-header text-center">Gallery</div>
+                <img class="card-img-top" src="<?php echo site_url('/images/portfolio/Portfolio_Romer.jpg') ?>" alt="Card image cap">
                 <div class="card-img-overlay d-flex">
                     <a href="#" class="btn btn-primary mt-auto mx-auto px-5 py-2">Lees Meer</a>
                 </div>
@@ -33,8 +37,8 @@
         </div>
         <div class="col-lg-4 pb-3">
             <div class="card">
-                <div class="card-header text-center">Titel 3</div>
-                <img class="card-img-top" src="<?php echo site_url('/images/home/s1-3.jpg') ?>" alt="Card image cap">
+                <div class="card-header text-center">Trots</div>
+                <img class="card-img-top" src="<?php echo site_url('/images/portfolio/Portfolio_Luc.png') ?>" alt="Card image cap">
                 <div class="card-img-overlay d-flex">
                     <a href="#" class="btn btn-primary mt-auto mx-auto px-5 py-2">Lees Meer</a>
                 </div>
@@ -74,7 +78,7 @@
     </section>
 </div>
 
-<section class="container py-5">
+<section class="container pt-5">
         <div class="row d-flex">
             <div class="col-lg-6 image mx-auto">
                 <img src="<?php echo site_url('/images/home/s2-1.jpg') ?>" height="auto" class="w-100 final-image"/>
@@ -83,18 +87,18 @@
                 <div class="textbox p-5">
                     <p class="reset">Benieuwd wat we voor jou kunnen betekenen? Kijk dan snel op onze diensten pagina om te zien wat de mogelijkheden zijn.</p>
                     <div class="d-flex">
-                        <a href="<?php echo url( 'diensten' ) ?>" class="btn btn-primary textbox-btn ml-auto mt-4 px-5 py-2">Diensten</a>
+                        <a href="<?php echo url( 'diensten' ) ?>" class="btn btn-primary ml-auto mt-4 px-5 py-2" id="textbox-btn">Diensten</a>
                     </div>
                 </div>
             </div>
         </div>
 </section>
 
-<section class="container pb-5">
+<section class="container pb-5 pt-3">
     <div class="row d-flex">
         <div class="mx-auto">
             <div class="col-md-12 text-center" id="interesse">
-                <h2>Geïnteresseerd? Bekijk dan onze diensten</h2>
+                <h2>Geïnteresseerd? Stuur ons een bericht!</h2>
                 <a href="<?php echo url( 'contact.show' ) ?>" class="btn btn-primary ml-3 px-5 py-2">Neem contact op</a>
             </div>
         </div>

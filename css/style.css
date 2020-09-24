@@ -22,24 +22,21 @@ body {
     background-image: url('../images/background-home.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .background-diensten {
-    background-image: url('../images/background.png');
+    background-image: url('../images/background-diensten.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.background-portfolio {
-    background-image: url('../images/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
 }
 
 .background-contact {
     background-image: url('../images/background-contact.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 h1,h2,h3,h4,h5,p,label,i {
@@ -97,11 +94,18 @@ a:hover {
 }
 
 .scrolled-down{
-
-    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+    transform: translateY(-100%); transition: all 0.3s ease-in-out;
+    -webkit-transform: translateY(-100%); transition: all 0.3s ease-in-out; /* Safari & Chrome */
+    -moz-transform: translateY(-100%); transition: all 0.3s ease-in-out; /* Firefox */
+    -ms-transform: translateY(-100%); transition: all 0.3s ease-in-out; /* Internet Explorer */
+    -o-transform: translateY(-100%); transition: all 0.3s ease-in-out; /* Opera */
 }
 .scrolled-up{
-    transform:translateY(0); transition: all 0.3s ease-in-out;
+    transform: translateY(0); transition: all 0.3s ease-in-out;
+    -webkit-transform: translateY(0); transition: all 0.3s ease-in-out; /* Safari & Chrome */
+    -moz-transform: translateY(0); transition: all 0.3s ease-in-out; /* Firefox */
+    -ms-transform: translateY(0); transition: all 0.3s ease-in-out; /* Internet Explorer */
+    -o-transform: translateY(0); transition: all 0.3s ease-in-out; /* Opera */
 }
 
 nav {
@@ -166,7 +170,7 @@ footer a:hover {
 
 /* HOMEPAGE */
 .masthead {
-    height: 40vh;
+    height: 50vh;
     min-height: 200px;
     width: 100%;
     object-fit: cover;
@@ -207,14 +211,18 @@ footer a:hover {
         text-align: center;
     }
 
-    .textbox-btn {
-        margin: 0 auto;
+    #textbox-btn {
+        padding: .6rem!important;
     }
 
     #interesse {
         display: block;
         text-align: center;
     }
+
+    /*.background-home,.background-diensten,.background-contact,.background-home {*/
+    /*    background-image: none;*/
+    /*}*/
 }
 
 @media only screen and (min-width: 991px) {
@@ -237,4 +245,60 @@ footer a:hover {
 
 #form-input:focus, #form-area:focus {
     border-color: var(--seconday-color);
+}
+
+/* PORTFOLIO */
+
+.portfolio-image {
+    height: 500px;
+    object-fit: cover;
+}
+
+.portfolio-image:hover {
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+/* DIENSTEN */
+
+.diensten-image {
+    height: 40vh;
+    object-fit: cover;
+}
+
+.diensten-textbox-blue {
+    background-color: #ececec;
+    transform: translateX(-25%);
+    margin-top: 25%;
+    background: var(--blue-color);
+}
+
+.diensten-textbox-green {
+    background-color: #ececec;
+    transform: translateX(-25%);
+    margin-top: 25%;
+    background: var(--green-color);
+}
+
+@media only screen and (max-width: 991px) {
+    .diensten-textbox-blue, .diensten-textbox-green {
+        transform: translateY(-35%);
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+    }
+}
+
+/* DIENSTEN DETAIL */
+
+.box-blue {
+    background-color: var(--blue-color);
+}
+
+.box-green {
+    background-color: var(--green-color);
+}
+
+.box-yellow {
+    background-color: var(--seconday-color);
 }

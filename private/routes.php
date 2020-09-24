@@ -14,7 +14,11 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
 	SimpleRouter::get( '/', 'WebsiteController@home' )->name( 'home' );
     SimpleRouter::get( '/home', 'WebsiteController@home' )->name( 'home' );
     SimpleRouter::get( '/about', 'WebsiteController@about' )->name( 'about' );
+
     SimpleRouter::get( '/diensten', 'WebsiteController@diensten' )->name( 'diensten' );
+    SimpleRouter::get( '/diensten/digitaal', 'WebsiteController@dienstendigitaal' )->name( 'diensten.digitaal' );
+    SimpleRouter::get( '/diensten/analoog', 'WebsiteController@dienstenanaloog' )->name( 'diensten.analoog' );
+
     SimpleRouter::get( '/portfolio', 'WebsiteController@portfolio' )->name( 'portfolio' );
 
     SimpleRouter::get( '/contact', 'ContactController@showContactForm' )->name( 'contact.show' );

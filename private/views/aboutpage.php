@@ -29,31 +29,41 @@
             <h2>Onze waarden</h2>
             <br>
             <h5>Dynamisch</h5>
-            <p>Toelichting</p>
+            <p>
+                Wij houden ons bezig met ons te ontwikkelen met nieuwe innovaties.
+                Wij gaan voor de beste en de hoogste kwaliteit en kwantiteit.
+            </p>
             <h5>Verbindend</h5>
-            <p>Toelichting</p>
+            <p>
+                Wij betrekken en houden het contact met klant.
+                Wij bespreken/motiveren en houden rekening met wie wij samenwerken.
+            </p>
             <h5>Effectief</h5>
-            <p>Toelichting</p>
+            <p>
+                Wij houden ons doelgericht bezig.
+                Wij helpen elkaar om terug te kijken op onze reflectie die wij zelf maken en  krijgen.
+            </p>
         </div>
     </div>
 </section>
 
 <section class="container pb-5">
     <div class="row pb-1">
-        <div class="col-l-12">
+        <div class="col-lg-12">
             <h2>Het Team</h2>
             <br>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12 py-3 text-center">
-            <h3>Beau van Dijk</h3>
+
         </div>
         <div class="col-lg-4">
             <img class="w-100 py-2" src="<?php echo site_url('/images/about/beau-bollen.png') ?>" alt="Card image cap">
         </div>
         <div class="col-lg-8 d-flex">
             <div class="my-auto">
+                <h3>Beau van Dijk</h3>
                 <p>Ik ben Beau van Dijk, en ik ben mede oprichter van Spark. Design is wat ik eigenlijk altijd al leuk gevonden heb. Ik was altijd creatief bezig met tekenen en hoe ik iets het beste eruit kon laten zien toen ik nog jonger was. Naarmate ik ouder werd heb ik gekozen voor een designopleiding in Amsterdam. Op het moment specialiseer ik mij vooral op het digitale design zoals web en animaties. Dit vak heeft mij veel aangesproken en je ontdekt altijd nieuwe dingen om jezelf te verbeteren.</p>
                 <a href="https://www.linkedin.com/in/beau-van-dijk-76713b180/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
@@ -61,13 +71,11 @@
     </div>
     <hr class="pb-3">
     <div class="row">
-        <div class="col-lg-12 py-3 text-center">
-            <h3>Bram van Baren</h3>
-        </div>
         <div class="col-lg-8 d-flex">
             <div class="my-auto">
-                <p>Hier komt stuk tekst! Wees lekker creatief, ik plaats hier alleen maar onzin om het een beetje vol te laten lijken. Dus als je graag wilt dat je hier iets hebt staan ipv een random tekst, stuur dan je tekst even door want dan plaats ik dat hier even snappie?</p>
-                <a href="https://www.linkedin.com/in/romer-bormann-3434aa198/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <h3>Bram van Baren</h3>
+                <p>Ik ben Bram van Baren, en een van de developers van spark. Ik wist 2 jaar geleden nog niet welke opleiding ik wilde doen tot ik bij het Mediacollege op de open dag kwam. Daar zag ik de opleiding Mediadeveloper. Vanaf het moment dat ik deze opleiding volg wil ik niets anders meer. En ik probeer mezelf ook steeds meer uit te dagen. Ik hou wel van een uitdaging en ik hou er van mezelf elke dag te verbeteren.</p>
+                <a href="https://www.linkedin.com/in/bram-van-baren-a37b681b6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
         <div class="col-lg-4">
@@ -76,26 +84,22 @@
     </div>
     <hr class="pb-3">
     <div class="row">
-        <div class="col-lg-12 py-3 text-center">
-            <h3>Luc Schaft</h3>
-        </div>
         <div class="col-lg-4">
             <img class="w-100 py-2" src="<?php echo site_url('/images/about/luc-bollen.png') ?>" alt="Card image cap">
         </div>
         <div class="col-lg-8 d-flex">
             <div class="my-auto">
-                <p>Hier komt stuk tekst! Wees lekker creatief, ik plaats hier alleen maar onzin om het een beetje vol te laten lijken. Dus als je graag wilt dat je hier iets hebt staan ipv een random tekst, stuur dan je tekst even door want dan plaats ik dat hier even snappie?</p>
+                <h3>Luc Schaft</h3>
+                <p>Ik ben Luc Schaft, ik kom uit Oostzaan en woon daar al mijn hele leven. In groep 7 was ik al bezig met het maken van simpele media-uitingen in Microsoft Paint. Ik vond ontwerpen heel erg leuk en het is tot op de dag van vandaag nogsteeds mijn favoriete bezigheid. Op de middelbare school heb ik het keuzevak ICT-Multimedia gekozen, hier heb ik veel geleerd over computers, software en ontwerp. Dit was voor mij de eerste keer dat ik met goede professionele licenties in aanraking kwam en we gebruikte voor alles het juiste gereedschap. We gebruikte goede camera’s, we hadden een studio en overal stonden iMacs. Sinds toen heb ik mijzelf heel erg veel ontwikkeld en ik ben nog altijd bezig om mijzelf te verbeteren in mijn vak en ik blijf mijn kennis uitbreiden. Op het moment specialiseer ik mij vooral op huisstijlen en drukwerk, dit heeft mij altijd al het meeste aangesproken en ik ben er altijd al bezig mee geweest.</p>
                 <a href="https://www.linkedin.com/in/luc-schaft-090692144/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </div>
     <hr class="pb-3">
     <div class="row">
-        <div class="col-lg-12 py-3 text-center">
-            <h3>Romer Bormann</h3>
-        </div>
         <div class="col-lg-8 d-flex">
             <div class="my-auto">
+                <h3>Romer Bormann</h3>
                 <p>Hey! Heb jij een uitdaging voor mij? Dan pak ik die graag met beidde handen aan. Ik ben verantwoordelijk op het development-gebied, mijn kwaliteiten liggen dan ook vooral in de front-end. Ik vind een concept tot leven brengen één van de mooiere dingen van het vak en daarom doe ik dat altijd met een hoop passie.</p>
                 <a href="https://www.linkedin.com/in/romer-bormann-3434aa198/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>

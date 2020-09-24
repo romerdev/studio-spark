@@ -36,6 +36,20 @@ class WebsiteController {
 
     }
 
+    public function dienstendigitaal() {
+
+        $template_engine = get_template_engine();
+        echo $template_engine->render('dienstendigitaal');
+
+    }
+
+    public function dienstenanaloog() {
+
+        $template_engine = get_template_engine();
+        echo $template_engine->render('dienstenanaloog');
+
+    }
+
     public function portfolio() {
 
         $template_engine = get_template_engine();
