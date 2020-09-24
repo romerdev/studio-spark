@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("https://use.typekit.net/rio7emu.css");
 
 :root {
     --main-color: #333333;
@@ -14,8 +14,12 @@
 /* ALGEMEEN */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: raleway, sans-serif;!important;
     background-color: var(--main-color);
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: ff-basic-gothic-pro, sans-serif;!important;
 }
 
 .background-home {
