@@ -18,30 +18,36 @@
 
     <div class="row py-2">
         <div class="col-lg-4 pb-3">
+            <div class="card-header text-center">Instragram Campagne</div>
             <div class="card">
-                <div class="card-header text-center">Wireframe</div>
-                <img class="card-img-top" src="<?php echo site_url('/images/portfolio/Portfolio_Beau.jpg') ?>" alt="Card image cap">
-                <div class="card-img-overlay d-flex">
-                    <a href="#" class="btn btn-primary mt-auto mx-auto px-5 py-2">Lees Meer</a>
-                </div>
+                <a class="alt-a" href="<?php echo url( 'portfolio' ) ?>">
+                    <img class="card-img-top portfolio-showcase-image" src="<?php echo site_url('/images/portfolio/instagram/instagram_tumbnail.jpg') ?>" alt="Card image cap">
+                    <div class="card-img-overlay d-flex">
+                        <div class="overlay-text">Klik voor meer informatie</div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="col-lg-4 pb-3">
+            <div class="card-header text-center">Studio Spark Website</div>
             <div class="card">
-                <div class="card-header text-center">Gallery</div>
-                <img class="card-img-top" src="<?php echo site_url('/images/portfolio/Portfolio_Romer.jpg') ?>" alt="Card image cap">
-                <div class="card-img-overlay d-flex">
-                    <a href="#" class="btn btn-primary mt-auto mx-auto px-5 py-2">Lees Meer</a>
-                </div>
+                <a class="alt-a" href="<?php echo url( 'portfolio' ) ?>">
+                    <img class="card-img-top" src="<?php echo site_url('/images/portfolio/Portfolio_Romer.jpg') ?>" alt="Card image cap">
+                    <div class="card-img-overlay d-flex">
+                        <div class="overlay-text">Klik voor meer informatie</div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="col-lg-4 pb-3">
+            <div class="card-header text-center">Trots</div>
             <div class="card">
-                <div class="card-header text-center">Trots</div>
-                <img class="card-img-top" src="<?php echo site_url('/images/portfolio/Portfolio_Luc.png') ?>" alt="Card image cap">
-                <div class="card-img-overlay d-flex">
-                    <a href="#" class="btn btn-primary mt-auto mx-auto px-5 py-2">Lees Meer</a>
-                </div>
+                <a class="alt-a" href="<?php echo url( 'portfolio' ) ?>">
+                    <img class="card-img-top" src="<?php echo site_url('/images/portfolio/Portfolio_Luc.png') ?>" alt="Card image cap">
+                    <div class="card-img-overlay d-flex">
+                        <div class="overlay-text">Klik voor meer informatie</div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
