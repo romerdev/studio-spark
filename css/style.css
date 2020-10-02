@@ -62,12 +62,15 @@ h1,h2,h3,h4,h5,p,label,i {
 }
 
 .fab {
-    padding: 20px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+}
+
+footer .fab {
+    padding: 0;
 }
 
 hr {
@@ -158,11 +161,11 @@ footer {
     border-top: 1px solid var(--border-color);
 }
 
-footer a {
+footer a, .alt-a {
     color: white;
 }
 
-footer a:hover {
+footer a:hover, .alt-a:hover {
     color: #c3c3c3;
     text-decoration: none;
 }
@@ -180,6 +183,10 @@ footer a:hover {
     object-fit: cover;
 }
 
+.masthead.about {
+    object-position: 56% 50%;
+}
+
 .card-img-top {
     min-height: 521px;
     object-fit: cover;
@@ -190,6 +197,10 @@ footer a:hover {
     border: none;
     background: none;
     color: white;
+}
+
+.waarde img {
+    height: 150px;
 }
 
 .lighter-background {
@@ -211,12 +222,13 @@ footer a:hover {
     .textbox {
         transform: translateY(-45%);
         margin: 0 auto;
-        width: 60%;
+        width: 80%;
         text-align: center;
     }
 
     #textbox-btn {
         padding: .6rem!important;
+        margin: 0 auto;
     }
 
     #interesse {
@@ -224,9 +236,14 @@ footer a:hover {
         text-align: center;
     }
 
-    /*.background-home,.background-diensten,.background-contact,.background-home {*/
-    /*    background-image: none;*/
-    /*}*/
+    #interesse-container {
+        padding-top: 0!important;
+        transform: translateY(-35%);
+    }
+
+    .background-home,.background-diensten,.background-contact,.background-home {
+        background-image: none;
+    }
 }
 
 @media only screen and (min-width: 991px) {
@@ -235,36 +252,23 @@ footer a:hover {
     }
 }
 
-/* CONTACT */
-#map {
-    height: 400px;
-    width: 100%
+/* ABOUT */
+@media only screen and (max-width: 991px) {
+    .bollen-image {
+        max-width: 70%;
+        object-fit: scale-down;
+        margin: 0 auto;
+    }
 }
 
-#form-input, #form-area {
-    box-shadow: none !important;
-    border-radius: 0;
-    resize: none;
-}
-
-#form-input:focus, #form-area:focus {
-    border-color: var(--seconday-color);
-}
-
-/* PORTFOLIO */
-
-.portfolio-image {
-    height: 500px;
-    object-fit: cover;
-}
-
-.portfolio-image:hover {
-    transition: 0.3s;
-    opacity: 0.7;
+@media only screen and (min-width: 992px) {
+    .bollen-image {
+        max-width: 100%;
+        object-fit: scale-down;
+    }
 }
 
 /* DIENSTEN */
-
 .diensten-image {
     height: 40vh;
     object-fit: cover;
@@ -294,7 +298,6 @@ footer a:hover {
 }
 
 /* DIENSTEN DETAIL */
-
 .box-blue {
     background-color: var(--blue-color);
 }
@@ -305,4 +308,31 @@ footer a:hover {
 
 .box-yellow {
     background-color: var(--seconday-color);
+}
+
+/* PORTFOLIO */
+.portfolio-image {
+    height: 500px;
+    object-fit: cover;
+}
+
+.portfolio-image:hover {
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+/* CONTACT */
+#map {
+    height: 400px;
+    width: 100%
+}
+
+#form-input, #form-area {
+    box-shadow: none !important;
+    border-radius: 0;
+    resize: none;
+}
+
+#form-input:focus, #form-area:focus {
+    border-color: var(--seconday-color);
 }

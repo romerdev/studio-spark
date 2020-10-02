@@ -20,11 +20,11 @@
     <div class="row">
         <div class="col-lg-6 py-3">
             <h4>Adres</h4>
-            <p>Contactweg 36, 1014 AN, Amsterdam</p>
+            <p><a class="alt-a" href="https://goo.gl/maps/1EESVb4YeABAoBLv6" target="_blank">Contactweg 36, 1014 AN, Amsterdam</a></p>
             <h4>Mail</h4>
-            <p>info@studiospark.net</p>
+            <p><a class="alt-a" href="mailto:info@studiospark.net">info@studiospark.net</a></p>
             <h4>Telefoon</h4>
-            <p>020 850 9500</p>
+            <p><a class="alt-a" href="tel:020 850 9500">020 850 9500</a></p>
             <div>
                 <iframe id="map" src="https://maps.google.com/maps?q=Contactweg%2036&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>

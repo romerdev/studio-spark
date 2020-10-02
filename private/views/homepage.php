@@ -52,24 +52,24 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card waarde align-items-center my-auto">
-                    <img class="card-img w-50 pb-2" src="<?php echo site_url('/images/noun_dynamic_2048497.svg') ?>" alt="Card image cap">
-                    <div class="card-img-bottom text-center pt-2">
+                    <img class="card-img w-50 pb-2" src="<?php echo site_url('/images/dynamic.svg') ?>" alt="Card image cap">
+                    <div class="card-img-bottom text-center py-2">
                         <h3>Dynamisch</h3>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card waarde align-items-center my-auto">
-                    <img class="card-img w-50 pb-2" src="<?php echo site_url('/images/noun_connect_1737835.svg') ?>" alt="Card image cap">
-                    <div class="card-img-bottom text-center pt-2">
+                    <img class="card-img w-50 pb-2" src="<?php echo site_url('/images/connect.svg') ?>" alt="Card image cap">
+                    <div class="card-img-bottom text-center py-2">
                         <h3>Verbindend</h3>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card waarde align-items-center my-auto">
-                    <img class="card-img w-50 pb-2" src="<?php echo site_url('/images/noun_explode_72135.svg') ?>" alt="Card image cap">
-                    <div class="card-img-bottom text-center pt-2">
+                    <img class="card-img w-50 pb-2" src="<?php echo site_url('/images/effective.svg') ?>" alt="Card image cap">
+                    <div class="card-img-bottom text-center py-2">
                         <h3>Effectief</h3>
                     </div>
                 </div>
@@ -94,12 +94,14 @@
         </div>
 </section>
 
-<section class="container pb-5 pt-3">
+<section class="container py-5" id="interesse-container">
     <div class="row d-flex">
         <div class="mx-auto">
             <div class="col-md-12 text-center" id="interesse">
                 <h2>Geïnteresseerd? Stuur ons een bericht!</h2>
-                <a href="<?php echo url( 'contact.show' ) ?>" class="btn btn-primary ml-3 px-5 py-2">Neem contact op</a>
+                <div>
+                    <a href="<?php echo url( 'contact.show' ) ?>" class="btn btn-primary ml-3 px-5 py-2">Neem contact op</a>
+                </div>
             </div>
         </div>
     </div>

@@ -64,11 +64,17 @@
                 <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
                     <p>
-                        <i class="fas fa-home mr-3"></i> Contactweg 36, 1014 AN, Amsterdam</p>
+                        <i class="fas fa-home mr-3"></i>
+                        <a href="https://goo.gl/maps/1EESVb4YeABAoBLv6" target="_blank">Contactweg 36, 1014 AN, Amsterdam</a>
+                    </p>
                     <p>
-                        <i class="fas fa-envelope mr-3"></i> info@studiospark.net</p>
+                        <i class="fas fa-envelope mr-3"></i>
+                        <a href="mailto:info@studiospark.net">info@studiospark.net</a>
+                    </p>
                     <p>
-                        <i class="fas fa-phone mr-3"></i> 020 850 9500</p>
+                        <i class="fas fa-phone mr-3"></i>
+                        <a href="tel:020 850 9500">020 850 9500</a>
+                    </p>
                 </div>
 
             </div>
@@ -77,7 +83,7 @@
 
             <div class="row d-flex align-items-center">
 
-                <div class="col-md-7 col-lg-8">
+                <div class="col-md-7 col-lg-8 pt-4">
 
                     <p class="text-center text-md-left">© 2020 Copyright:
                         <a href="<?php echo url( 'home' ) ?>">
@@ -87,27 +93,16 @@
 
                 </div>
 
-                <div class="col-md-5 col-lg-4 ml-lg-0">
-
-                    <div class="text-center text-md-right">
-                        <ul class="list-unstyled list-inline">
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-facebook-f"></i>
+                <div class="col-md-5 col-lg-4 ml-lg-0 pt-4">
+                    <div class="text-center">
+                        <ul class="list-unstyled mx-auto">
+                            <li class="list-inline-item mr-0">
+                                <a class="rgba-white-slight" href="https://www.instagram.com/studiospark.net_/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-google-plus-g"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                            <li class="list-inline-item ml-3 mr-0">
+                                <a class="rgba-white-slight" href="https://www.linkedin.com/company/design-studio-spark/" target="_blank">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
                             </li>
@@ -144,6 +139,16 @@
                 last_scroll_top = scroll_top;
             });
         }
+
+        var distance = 200,
+            $window = $(window);
+
+        $window.scroll(function() {
+
+            if ($window.scrollTop() <= distance) {
+                $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+            }
+        });
     </script>
 </body>
 </html>
