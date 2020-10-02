@@ -18,7 +18,7 @@
                     <a class="nav-link pl-4" href="<?php echo url( 'diensten' ) ?>"<?php if ( current_route_is( 'diensten' ) ): ?> id="active"<?php endif ?>>Diensten</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link pl-4" href="<?php echo url( 'portfolio' ) ?>"<?php if ( current_route_is( 'portfolio' ) ): ?> id="active"<?php endif ?>>Portfolio</a>
+                    <a class="nav-link pl-4" href="<?php echo url( 'portfolio' ) ?>"<?php if ( current_route_is( 'portfolio' ) || current_route_is( 'portfolio.instagram') ): ?> id="active"<?php endif ?>>Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link pl-4" href="<?php echo url( 'contact.show' ) ?>"<?php if ( current_route_is( 'contact.show') || current_route_is( 'contact.handle') ): ?> id="active"<?php endif ?>>Contact</a>

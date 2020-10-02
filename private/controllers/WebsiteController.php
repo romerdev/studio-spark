@@ -57,5 +57,12 @@ class WebsiteController {
 
     }
 
+    public function portfolioinstagram() {
+
+        $template_engine = get_template_engine();
+        echo $template_engine->render('portfolio/instagram-portfolio');
+
+    }
+
 }
 

@@ -20,7 +20,7 @@
         <div class="col-lg-4 pb-3">
             <div class="card-header text-center">Instragram Campagne</div>
             <div class="card">
-                <a class="alt-a" href="<?php echo url( 'portfolio' ) ?>">
+                <a class="alt-a" href="<?php echo url( 'portfolio.instagram' ) ?>">
                     <img class="card-img-top portfolio-showcase-image" src="<?php echo site_url('/images/portfolio/instagram/instagram_tumbnail.jpg') ?>" alt="Card image cap">
                     <div class="card-img-overlay d-flex">
                         <div class="overlay-text">Klik voor meer informatie</div>

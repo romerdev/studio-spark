@@ -20,6 +20,7 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
     SimpleRouter::get( '/diensten/analoog', 'WebsiteController@dienstenanaloog' )->name( 'diensten.analoog' );
 
     SimpleRouter::get( '/portfolio', 'WebsiteController@portfolio' )->name( 'portfolio' );
+    SimpleRouter::get( '/portfolio/instagram-campagne', 'WebsiteController@portfolioinstagram' )->name( 'portfolio.instagram' );
 
     SimpleRouter::get( '/contact', 'ContactController@showContactForm' )->name( 'contact.show' );
     SimpleRouter::post( '/contact/send', 'ContactController@handleContactForm' )->name( 'contact.handle' );

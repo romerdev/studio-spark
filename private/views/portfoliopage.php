@@ -25,26 +25,18 @@
 </section>
 
 <section class="container">
-    <div class="row py-2">
-        <div class="col-lg-6 pb-3 w-100">
-            <div class="card">
-                <img class="card-img-top portfolio-image" src="<?php echo site_url('/images/portfolio/Portfolio_Beau.jpg') ?>">
-            </div>
-        </div>
+    <div class="row pb-3">
         <div class="col-lg-6 pb-3">
             <div class="card">
-                <img class="card-img-top portfolio-image" src="<?php echo site_url('/images/portfolio/Portfolio_Romer.jpg') ?>">
-            </div>
-        </div>
-
-        <div class="col-lg-6 pb-3">
-            <div class="card">
-                <img class="card-img-top portfolio-image" src="<?php echo site_url('/images/portfolio/Portfolio_Bram.png') ?>">
-            </div>
-        </div>
-        <div class="col-lg-6 pb-3">
-            <div class="card">
-                <img class="card-img-top portfolio-image" src="<?php echo site_url('/images/portfolio/Portfolio_Luc.png') ?>">
+                <a class="alt-a" href="<?php echo url( 'portfolio.instagram' ) ?>">
+                    <img class="portfolio-image" src="<?php echo site_url('/images/portfolio/instagram/instagram_tumbnail.jpg') ?>">
+                    <div class="card-img-overlay d-flex">
+                        <div class="overlay-text">
+                            <b>Instagram Camapgne</b><br>
+                            Klik voor meer informatie
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
