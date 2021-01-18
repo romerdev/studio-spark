@@ -97,7 +97,7 @@
                     <div class="text-center">
                         <ul class="list-unstyled mx-auto">
                             <li class="list-inline-item mr-0">
-                                <a class="rgba-white-slight" href="https://www.instagram.com/studiospark.net_/" target="_blank">
+                                <a class="rgba-white-slight" href="https://www.instagram.com/studiosparknl/" target="_blank">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </li>

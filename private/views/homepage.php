@@ -1,8 +1,6 @@
 <?php $this->layout('website');?>
 
-<!--<img class="masthead" src="--><?php //echo site_url('/images/mast/mast-image-diensten.jpg') ?><!--" alt="Card image cap">-->
-
-<video class="masthead" autoplay muted loop controls>
+<video class="masthead" autoplay muted loop controls playsinline>
     <source src="<?php echo site_url('/images/promo.mp4') ?>" type="video/mp4">
 </video>
 
@@ -18,7 +16,7 @@
 
     <div class="row py-2">
         <div class="col-lg-4 pb-3">
-            <div class="card-header text-center">Instragram Campagne</div>
+            <div class="card-header text-center">Instagram Marketing</div>
             <div class="card">
                 <a class="alt-a" href="<?php echo url( 'portfolio.instagram' ) ?>">
                     <img class="card-img-top portfolio-showcase-image" src="<?php echo site_url('/images/portfolio/instagram/instagram_tumbnail.jpg') ?>" alt="Card image cap">

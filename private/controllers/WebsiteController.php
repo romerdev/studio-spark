@@ -29,6 +29,13 @@ class WebsiteController {
 
     }
 
+    public function studiodrift() {
+
+        $template_engine = get_template_engine();
+        echo $template_engine->render('studiodrift');
+
+    }
+
     public function diensten() {
 
         $template_engine = get_template_engine();

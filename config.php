@@ -16,7 +16,7 @@ $config = [
         'SMTP_PASSWORD' => '394d9d60-fca6-11ea-991f-d3ef99a6e53a',
         'SMTP_PORT' => '9025',
     ],
-	'BASE_URL' => '',  // Zet hier het pad naar de public map in, vanaf http://localhost, anders werken je routes niet!
+	'BASE_URL' => 'https://www.studiospark.net',  // Zet hier het pad naar de public map in, vanaf http://localhost, anders werken je routes niet!
 	'ROOT'     => dirname( dirname( __DIR__ ) ),
 	'PRIVATE'  => dirname( __DIR__ ),
 	'WEBROOT'  => dirname( dirname( __DIR__ ) )

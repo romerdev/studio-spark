@@ -1,7 +1,3 @@
-<?php //foreach ($users as $user):?>
-<!--    --><?php //echo $user['voornaam']?>
-<?php //endforeach;?>
-
 <?php $this->layout('website');?>
 
 <section class="container">
@@ -32,7 +28,7 @@
                     <img class="portfolio-image" src="<?php echo site_url('/images/portfolio/instagram/instagram_tumbnail.jpg') ?>">
                     <div class="card-img-overlay d-flex">
                         <div class="overlay-text">
-                            <b>Instagram Camapgne</b><br>
+                            <b>Instagram Marketing</b><br>
                             Klik voor meer informatie
                         </div>
                     </div>

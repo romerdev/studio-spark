@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.button-primary {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-primary:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.button-secondary {
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 2px solid black;
+}
+
+.title-wrapper {
+    height: 20vh;
+    background-color: black;
+    color: white;
+}
+
+.content-wrapper-top {
+    height: 80vh;
+}
+
+.content-wrapper {
+    height: 100vh;
+}
+
+img.goodiebag {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .content-wrapper-top {
+        margin-top: 50px;
+        height: unset;
+    }
+
+    .content-wrapper {
+        height: unset;
+    }
+
+    .s1, .s2 {
+        margin-bottom: 75px;
+    }
+
+   .s2 {
+        padding: 50px 0;
+    }
+
+    .form-wrapper {
+        width: 100% !important;
+    }
+
+    .responsive-padding {
+        padding-top: 5rem;
+    }
+
+    img.goodiebag {
+        height: 20vh;
+    }
+
+    .s2 .row {
+        flex-direction: column-reverse;
+    }
+
+}
+
+img.download {
+    max-height: 40px;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

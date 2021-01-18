@@ -15,12 +15,14 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
     SimpleRouter::get( '/home', 'WebsiteController@home' )->name( 'home' );
     SimpleRouter::get( '/about', 'WebsiteController@about' )->name( 'about' );
 
+    SimpleRouter::get( '/studiodrift', 'WebsiteController@studiodrift' )->name( 'studiodrift' );
+
     SimpleRouter::get( '/diensten', 'WebsiteController@diensten' )->name( 'diensten' );
     SimpleRouter::get( '/diensten/digitaal', 'WebsiteController@dienstendigitaal' )->name( 'diensten.digitaal' );
     SimpleRouter::get( '/diensten/analoog', 'WebsiteController@dienstenanaloog' )->name( 'diensten.analoog' );
 
     SimpleRouter::get( '/portfolio', 'WebsiteController@portfolio' )->name( 'portfolio' );
-    SimpleRouter::get( '/portfolio/instagram-campagne', 'WebsiteController@portfolioinstagram' )->name( 'portfolio.instagram' );
+    SimpleRouter::get( '/portfolio/instagram-marketing', 'WebsiteController@portfolioinstagram' )->name( 'portfolio.instagram' );
 
     SimpleRouter::get( '/contact', 'ContactController@showContactForm' )->name( 'contact.show' );
     SimpleRouter::post( '/contact/send', 'ContactController@handleContactForm' )->name( 'contact.handle' );
