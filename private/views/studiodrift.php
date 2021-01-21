@@ -23,7 +23,7 @@
             <div class="row content-wrapper-top">
                 <div class="col-lg-7 d-flex">
                     <div class="m-auto iframe-container">
-                        <iframe src="https://www.youtube.com/embed/Y88fIRU-CyU?rel=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/RUl5lv9FT5Q?rel=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-lg-5 d-flex responsive-padding">
@@ -46,13 +46,13 @@
 
     <div class="section s2 scrollelement1" style="background-color: rgba(0, 0, 0, 0.02);">
         <div class="container">
-            <div class="row">
+            <div class="row column-reverse">
                 <div class="col-lg-6 d-flex responsive-padding">
                     <div class="my-auto form-wrapper" style="width: 80%;">
                         <h2 class="mb-1">Reserveer een Goodiebag</h2>
                         <small>Maximaal 1 p.p. - <b>€15,00</b></small>
                         <form class="mt-4">
-                            <div class="row flex-row-reverse">
+                            <div class="row row-reverse">
                                 <div class="col-sm-6 mb-3">
                                     <div class="form-group">
                                         <label for="firstname">Voornaam</label>
@@ -82,7 +82,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row flex-row-reverse">
+                            <div class="row row-reverse">
                                 <div class="col-sm-6 mb-3 ">
                                     <div class="form-group">
                                         <label for="country">Land</label>
@@ -114,7 +114,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img class="goodiebag" src="<?php echo site_url('/images/studiodrift/GoodieBox.png') ?>" alt="Download in de Appstore">
+                    <video class="goodiebag" data-autoplay>
+                        <source src="<?php echo site_url('/images/studiodrift/goodiebox.mp4') ?>" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
 
             </div>
@@ -126,8 +129,8 @@
             <div class="row content-wrapper">
                 <div class="col-lg-5 d-flex">
                     <div class="m-auto">
-                        <h2 class="mb-4">Lorem ipsum</h2>
-                        <p class="mb-4">Download hier alvast de APP, in jouw goodiebox zit straks een QR-Code waarmee je de Studio Drift Experience in de app kan openen.</p>
+                        <h2 class="mb-4">AR App</h2>
+                        <p class="mb-4">Download hier alvast de app, in jouw goodiebox zit straks een QR-Code waarmee je de Studio Drift Experience in de app kan openen.</p>
                         <div class="d-flex">
                             <img class="download" src="<?php echo site_url('/images/studiodrift/appstore.svg') ?>" alt="Download in de Appstore">
                             <img class="download" src="<?php echo site_url('/images/studiodrift/playstore.png') ?>" alt="Download in de Play Store" style="padding-left: 15px;">
@@ -168,9 +171,9 @@
         var y = document.getElementsByClassName("scrollelement2")[0];
         y.id="app"
 
+        document.getElementsByTagName("video")[0].setAttribute("autoplay", true);
+
     }
-
-
 
 </script>
 

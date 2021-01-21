@@ -76,7 +76,7 @@ html {
     height: 100vh;
 }
 
-img.goodiebag {
+video.goodiebag {
     object-fit: cover;
     height: 100vh;
     width: 100%;
@@ -108,14 +108,17 @@ img.goodiebag {
         padding-top: 5rem;
     }
 
-    img.goodiebag {
+    video.goodiebag {
         height: 20vh;
     }
 
-    .s2 .row {
+    .column-reverse {
         flex-direction: column-reverse;
     }
 
+    .row-reverse {
+        flex-direction: row-reverse;
+    }
 }
 
 img.download {

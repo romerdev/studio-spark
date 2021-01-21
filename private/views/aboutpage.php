@@ -55,9 +55,6 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 py-3 text-center">
-
-        </div>
         <div class="col-lg-4 d-flex">
             <img class="py-2 bollen-image" src="<?php echo site_url('/images/about/beau-bollen.png') ?>" alt="Foto van Beau van Dijk">
         </div>
@@ -75,23 +72,6 @@
     </div>
     <hr class="pb-3">
     <div class="row">
-        <div class="col-lg-8 d-flex">
-            <div class="my-auto">
-                <h3>Bram van Baren</h3>
-                <p>
-                    Ik ben Bram van Baren, een van de developers van Studio Spark. Ik wist 2 jaar geleden nog niet welke opleiding ik wilde doen tot ik bij het Mediacollege op de open dag kwam. Daar zag ik de opleiding Mediadeveloper. Vanaf het moment dat ik deze opleiding volg wil ik niets anders meer. En ik probeer mezelf ook steeds meer uit te dagen. Ik hou wel van een uitdaging en ik hou er van mezelf elke dag te verbeteren.
-                    <br>
-                    <a href="mailto:bram@studiospark.net">bram@studiospark.net</a>
-                </p>
-                <a href="https://www.linkedin.com/in/bram-van-baren-a37b681b6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </div>
-        <div class="col-lg-4 d-flex">
-            <img class="py-2 bollen-image" src="<?php echo site_url('/images/about/bram-bollen.png') ?>" alt="Card image cap">
-        </div>
-    </div>
-    <hr class="pb-3">
-    <div class="row">
         <div class="col-lg-4 d-flex">
             <img class="py-2 bollen-image" src="<?php echo site_url('/images/about/luc-bollen.png') ?>" alt="Card image cap">
         </div>
@@ -105,23 +85,6 @@
                 </p>
                 <a href="https://www.linkedin.com/in/luc-schaft-090692144/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
-        </div>
-    </div>
-    <hr class="pb-3">
-    <div class="row">
-        <div class="col-lg-8 d-flex">
-            <div class="my-auto">
-                <h3>Romer Bormann</h3>
-                <p>
-                    Hey! Heb jij een uitdaging voor mij? Dan pak ik die graag met beide handen aan. Ik ben verantwoordelijk op het development-gebied, mijn kwaliteiten liggen dan ook vooral in de front-end. Ik vind een concept tot leven brengen één van de mooiere dingen van het vak en daarom doe ik dat altijd met een hoop passie.
-                    <br>
-                    <a href="mailto:romer@studiospark.net">romer@studiospark.net</a>
-                </p>
-                <a href="https://www.linkedin.com/in/romer-bormann-3434aa198/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </div>
-        <div class="col-lg-4 d-flex">
-            <img class="py-2 bollen-image" src="<?php echo site_url('/images/about/romer-bollen.png') ?>" alt="Card image cap">
         </div>
     </div>
 </section>

@@ -1,6 +1,6 @@
 <?php $this->layout('website');?>
 
-<video class="masthead" autoplay muted loop controls playsinline>
+<video class="masthead" autoplay muted loop playsinline>
     <source src="<?php echo site_url('/images/promo.mp4') ?>" type="video/mp4">
 </video>
 
